@@ -16,13 +16,15 @@
 * _git diff HEAD_ : montre les différences dans le head  
 
 ## Les branches  
-* _git branch fin_: creation de la branche  
+* _git branch fin_: creation de la branche fin
 * _git push origin fin_: creation de la branche fin sur le serveur distant  
 * _git checkout fin_: on se positionne sur la branche fin  
 * _git checkout master_: on se positionne sur la branche master  
 * _git branch_: montre sur quel branche on travaille  
 
-* _Mettre à jour la branche master après modif sur la branche fin_  
-1_ Toujours sur la branche fin, commitez les dernieres modif sur la branche fin : _git commit -m"last change"_  
+* __Mettre à jour la branche master après modif sur la branche fin__  
+1_ Toujours sur la branche fin, commitez les dernières modifs sur la branche fin : _git commit -m"last change"_  
 2_ Se positionner sur la branche master : _git checkout master_  
 3_ Fusionner la branche fin dans la branche master : _git merge fin_  
+
+
