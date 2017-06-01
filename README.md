@@ -2,18 +2,16 @@
 # Commandes git
 
 ## Les basiques
-* git init : création du git  
-* git status : montre les fichiers modifiés  
-* git add . : ajoute tous les fichiers au stage  
-* git commit -m"..." : crée un commit avec un commentaire  
-* git log --summary : montre les différent commits exécutés  
+* _git init_ : création du git  
+* _git clone https://github.com/..._ : cloner un projet distant
+* _git status_ : montre les fichiers modifiés  
+* _git add ._ : ajoute tous les fichiers au stage  
+* _git commit -m"..."_ : crée un commit avec un commentaire  
+* _git log --summary_ : montre les différent commits exécutés  
 
-* git remote add origin https://github.com/... : Création du repo sur un serveur distant
+* _git remote add origin https://github.com/..._: Création du repo sur un serveur distant  
+* _git push_ : envoie au serveur distant  
 
-'<h1> blabla </h1>'
-
-int main()
-{
-    printf("Hello world!\n");
-    return 0;
-}
+* _git pull_ : met à jour le fichier local suite à des modifs sur le serveur distant
+* _git diff HEAD_ : montre les différences dans le head
+ 
