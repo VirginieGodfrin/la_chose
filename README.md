@@ -32,6 +32,5 @@
 4_ Supression d'une branche : _git branch -d clean-up_  
 
 ## Sources et liens 
-[Roger Dudler, "Git guide"](http://rogerdudler.github.io/git-guide/index.fr.html)
-[Code School, "Try github"](https://try.github.io/levels/1/challenges/1)
-["Learn Git Branching"](http://learngitbranching.js.org/)
+[Git guide](http://rogerdudler.github.io/git-guide/index.fr.html)//[Try github](https://try.github.io/levels/1/challenges/1)//
+[Learn Git Branching](http://learngitbranching.js.org/)  
