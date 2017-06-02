@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Non mais, les extraterestres sont d'horribles bestiolles avides de sang humain.
+=======
+Monsieur Carpenter aime la musique syntétique et les film de science fiction genre fantastique.
+>>>>>>> master
