@@ -31,6 +31,7 @@
 3_ Fusionner la branche fin dans la branche master : _git merge fin_  
 4_ Supression d'une branche : _git branch -d clean-up_  
 
+* _git rebase_: fusionne deux branches qui ont évoluées parallèlement
+
 ## Sources et liens 
-[Git guide](http://rogerdudler.github.io/git-guide/index.fr.html)//[Try github](https://try.github.io/levels/1/challenges/1)//
-[Learn Git Branching](http://learngitbranching.js.org/)  
+[Git guide](http://rogerdudler.github.io/git-guide/index.fr.html) // [Try github](https://try.github.io/levels/1/challenges/1) // [Learn Git Branching](http://learngitbranching.js.org/)  
