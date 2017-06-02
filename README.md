@@ -24,6 +24,9 @@
 * _git checkout fin_: on se positionne sur la branche fin  
 * _git checkout master_: on se positionne sur la branche master  
 * _git branch_: montre sur quelle branche on travaille  
+* _git branch -D fin_: supprime la branche fin  
+* _git rebase_: fusionne deux branches qui ont évoluées parallèlement  
+
 
 * __Mettre à jour la branche master après modif sur la branche fin__  
 1_ Toujours sur la branche fin, commitez les dernières modifs sur la branche fin : _git commit -m"last change"_  
@@ -31,7 +34,8 @@
 3_ Fusionner la branche fin dans la branche master : _git merge fin_  
 4_ Supression d'une branche : _git branch -d clean-up_  
 
-* _git rebase_: fusionne deux branches qui ont évoluées parallèlement
+
+
 
 ## Sources et liens 
 [Git guide](http://rogerdudler.github.io/git-guide/index.fr.html) // [Try github](https://try.github.io/levels/1/challenges/1) // [Learn Git Branching](http://learngitbranching.js.org/)  
