@@ -26,10 +26,7 @@
 * _git branch_: montre sur quelle branche on travaille  
 * _git branch -D fin_: supprime la branche fin  
 * _git rebase_: fusionne deux branches qui ont évoluées parallèlement  
-<<<<<<< HEAD
-=======
 
->>>>>>> ba88006ca22b91b494856fbd3d82d7ce933a0df0
 
 * __Mettre à jour la branche master après modif sur la branche fin__  
 1_ Toujours sur la branche fin, commitez les dernières modifs sur la branche fin : _git commit -m"last change"_  
@@ -37,7 +34,8 @@
 3_ Fusionner la branche fin dans la branche master : _git merge fin_  
 4_ Supression d'une branche : _git branch -d clean-up_  
 
-
+*__Cherry-pick
+* _git cherry-pick d42c389f d67h789s d78h890g _: copie les commits d42c389f d67h789s d78h890g sous votre emplacement actuel (HEAD)
 
 
 ## Sources et liens 
